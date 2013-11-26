@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A2093" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="DqV-NE-ftr">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Survey sdk demo View Controller-->
+        <scene sceneID="4aq-uf-WNz">
+            <objects>
+                <viewController id="DqV-NE-ftr" customClass="survey_sdk_demoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gBj-ua-swg"/>
+                        <viewControllerLayoutGuide type="bottom" id="PUO-Vq-UGg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4rA-87-4TR">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Survey SDK Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hep-io-9GV">
+                                <rect key="frame" x="19" y="20" width="729" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hH-bK-fPC">
+                                <rect key="frame" x="19" y="868" width="729" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="View All Surveys">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnAll_click:" destination="DqV-NE-ftr" eventType="touchUpInside" id="Zab-3v-gcO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTc-Qc-K5a">
+                                <rect key="frame" x="20" y="918" width="729" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="View One Survey">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnOne_click:" destination="DqV-NE-ftr" eventType="touchUpInside" id="UTW-4y-YsR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkW-R2-vA8">
+                                <rect key="frame" x="19" y="968" width="729" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Logout User">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnLogout:" destination="DqV-NE-ftr" eventType="touchUpInside" id="LZN-JM-yQn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Surveys Available: (loading...)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcd-sx-aX3">
+                                <rect key="frame" x="20" y="818" width="728" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="C7I-JK-91h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hep-io-9GV" firstAttribute="trailing" secondItem="Vcd-sx-aX3" secondAttribute="trailing" id="2ZK-Dt-Lke"/>
+                            <constraint firstItem="Vcd-sx-aX3" firstAttribute="centerX" secondItem="xTc-Qc-K5a" secondAttribute="centerX" id="41e-Tq-dTh"/>
+                            <constraint firstItem="6hH-bK-fPC" firstAttribute="trailing" secondItem="AkW-R2-vA8" secondAttribute="trailing" id="4ua-Bu-bnq"/>
+                            <constraint firstItem="AkW-R2-vA8" firstAttribute="leading" secondItem="6hH-bK-fPC" secondAttribute="leading" id="BaP-Eo-3So"/>
+                            <constraint firstItem="6hH-bK-fPC" firstAttribute="top" secondItem="Vcd-sx-aX3" secondAttribute="bottom" constant="8" symbolic="YES" id="KzF-Gw-nke"/>
+                            <constraint firstItem="AkW-R2-vA8" firstAttribute="top" secondItem="xTc-Qc-K5a" secondAttribute="bottom" constant="8" symbolic="YES" id="QTd-Wu-Q8j"/>
+                            <constraint firstItem="Vcd-sx-aX3" firstAttribute="leading" secondItem="4rA-87-4TR" secondAttribute="leading" constant="20" symbolic="YES" id="ZUK-De-5nF"/>
+                            <constraint firstItem="6hH-bK-fPC" firstAttribute="trailing" secondItem="hep-io-9GV" secondAttribute="trailing" id="aBH-2Q-ciy"/>
+                            <constraint firstItem="hep-io-9GV" firstAttribute="top" secondItem="4rA-87-4TR" secondAttribute="top" constant="20" symbolic="YES" id="baa-Nf-5M3"/>
+                            <constraint firstAttribute="trailing" secondItem="hep-io-9GV" secondAttribute="trailing" constant="20" symbolic="YES" id="cfO-WW-jzA"/>
+                            <constraint firstItem="hep-io-9GV" firstAttribute="leading" secondItem="4rA-87-4TR" secondAttribute="leading" constant="19" id="goG-6p-8ZF"/>
+                            <constraint firstItem="xTc-Qc-K5a" firstAttribute="top" secondItem="6hH-bK-fPC" secondAttribute="bottom" constant="8" symbolic="YES" id="oZZ-a5-IAq"/>
+                            <constraint firstItem="hep-io-9GV" firstAttribute="leading" secondItem="6hH-bK-fPC" secondAttribute="leading" id="uXo-Fs-hds"/>
+                            <constraint firstAttribute="bottom" secondItem="Vcd-sx-aX3" secondAttribute="bottom" constant="164" id="v0i-NS-nCT"/>
+                            <constraint firstItem="Vcd-sx-aX3" firstAttribute="leading" secondItem="xTc-Qc-K5a" secondAttribute="leading" id="xEs-ym-RKq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblAvailable" destination="Vcd-sx-aX3" id="RkU-gC-onb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="owU-wK-79f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="180" y="-260"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
