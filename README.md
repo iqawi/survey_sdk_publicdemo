@@ -4,7 +4,7 @@
 
 Please contact your account rep to get your "org_id" before going live, the sample "org_id" is for test data only.
 
-See the wiki for colors and text that can be customized, more details about geo based surveys, and callbacks for survey completes.
+See the wiki for [colors and text that can be customized](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Customization), more details about geo based surveys, and callbacks for survey completes.
 
 ##Quick Start
 Add the static library and header file to your app.  See the wiki for more details on how to link the libary.
