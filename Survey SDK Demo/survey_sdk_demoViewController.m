@@ -18,7 +18,7 @@
     // SDK call to initialize the user
     // Can be called as soon as the user information is available or as late as immediately before the Show methods
     // If an email is not available, please use a distinct id of some kind
-    [Survey_SDK setupUser:@"191@user.fanatic.co"];
+    [Survey_SDK setupUser:@"test@test123.com"];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
