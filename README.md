@@ -9,8 +9,8 @@ See the wiki for colors and text that can be customized, more details about geo 
 ##Quick Start
 Add the static library and header file to your app.  See the wiki for more details on how to link the libary.
 
-[libSurvey SDK.a]: https://github.com/Survey-Com/survey_sdk_publicdemo/blob/master/libSurvey%20SDK.a?raw=true
-[Survey_SDK.h]: https://raw.github.com/Survey-Com/survey_sdk_publicdemo/master/Survey%20SDK%20Demo/Survey_SDK.h
+[libSurvey SDK.a](https://github.com/Survey-Com/survey_sdk_publicdemo/blob/master/libSurvey%20SDK.a?raw=true)
+[Survey_SDK.h](https://raw.github.com/Survey-Com/survey_sdk_publicdemo/master/Survey%20SDK%20Demo/Survey_SDK.hP
 
 Initialize the SDK in your app delegate
 
