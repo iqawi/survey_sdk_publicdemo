@@ -4,10 +4,10 @@
 
 Please contact your account rep to get your ["org_id"](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Getting-an-org_id) before going live, the sample "org_id" is for test data only.
 
-See the wiki for [setting up your users](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Connecting-your-users), [colors and text that can be customized](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Customization), details about geo based surveys, and [callbacks for survey completes](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Implementing-callbacks-when-surveys-finish).
+See the wiki for [setting up your users](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Connecting-your-users), [colors and text that can be customized](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Customization), details about [geo based surveys]((https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Geo-based-surveys), and [callbacks for survey completes](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Implementing-callbacks-when-surveys-finish).
 
 ##Quick Start
-Add the static library and header file to your app.  See the wiki for more details on how to link the libary.
+Add the static library and header file to your app.  See the wiki for more details on how to [link the libary](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Adding-the-library-to-your-project).
 
 [libSurvey SDK.a](https://github.com/Survey-Com/survey_sdk_publicdemo/blob/master/libSurvey%20SDK.a?raw=true)
 
