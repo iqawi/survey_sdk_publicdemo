@@ -37,3 +37,5 @@ In the view controller or menu, create a button that will launch the survey SDK.
     	// SDK call to load the list of available surveys
     	[Survey_SDK showSurveyList];
 	}
+
+_All usage must adhere to our [SDK Usage Agreement and Guideslines](wiki/SDK-Usage-Agreement)_
