@@ -2,9 +2,9 @@
 
 ####Clone this app to get started working with the Survey.com SDK
 
-Please contact your account rep to get your ["org_id"](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Getting-an-org_id) before going live, the sample "org_id" is for test data only.
+Please contact your account rep to get your ["org_id"](wiki/Getting-an-org_id) before going live, the sample "org_id" is for test data only.
 
-See the wiki for [colors and text that can be customized](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Customization), more details about geo based surveys, and callbacks for survey completes.
+See the wiki for [setting up your users](wiki/Connecting-your-users), [colors and text that can be customized](wiki/Customization), details about geo based surveys, and [callbacks for survey completes](wiki/Implementing-callbacks-when-surveys-finish).
 
 ##Quick Start
 Add the static library and header file to your app.  See the wiki for more details on how to link the libary.
@@ -26,7 +26,7 @@ Initialize the SDK in your app delegate
     	return YES;
 	}
 
-In the view controller or menu, create a button that will launch the survey SDK.  Call the ["setupUser"](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Connecting-your-users) function with the unique identifier for each of your users (must be in email format) and then call the function to launch the survey list.
+In the view controller or menu, create a button that will launch the survey SDK.  Call the ["setupUser"](wiki/Connecting-your-users) function with the unique identifier for each of your users (must be in email format) and then call the function to launch the survey list.
 
 	- (IBAction)launchSurveys_click:(id)sender {
     	// SDK call to initialize the user
