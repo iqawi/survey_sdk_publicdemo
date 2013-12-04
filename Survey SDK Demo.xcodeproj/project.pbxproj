@@ -21,8 +21,8 @@
 		385660FB18285ABE0078E775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385660DD18285ABE0078E775 /* UIKit.framework */; };
 		3856610318285ABE0078E775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3856610118285ABE0078E775 /* InfoPlist.strings */; };
 		3856610518285ABE0078E775 /* Survey_SDK_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3856610418285ABE0078E775 /* Survey_SDK_DemoTests.m */; };
-		3878596C18451D5A009139AF /* libSurvey SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3878596B18451D5A009139AF /* libSurvey SDK.a */; };
 		3888479D183A9A3900B54D1F /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3888479B183A9A3900B54D1F /* Main-iPad.storyboard */; };
+		38CFC052184ED08500F34569 /* libSurvey_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CFC051184ED08500F34569 /* libSurvey_SDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		3856610218285ABE0078E775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3856610418285ABE0078E775 /* Survey_SDK_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Survey_SDK_DemoTests.m; sourceTree = "<group>"; };
 		3878596A184518AC009139AF /* Survey_SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Survey_SDK.h; sourceTree = "<group>"; };
-		3878596B18451D5A009139AF /* libSurvey SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libSurvey SDK.a"; sourceTree = "<group>"; };
 		3888479C183A9A3900B54D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-iPad.storyboard"; sourceTree = "<group>"; };
+		38CFC051184ED08500F34569 /* libSurvey_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSurvey_SDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CFC052184ED08500F34569 /* libSurvey_SDK.a in Frameworks */,
 				385660DC18285ABE0078E775 /* CoreGraphics.framework in Frameworks */,
-				3878596C18451D5A009139AF /* libSurvey SDK.a in Frameworks */,
 				385660DE18285ABE0078E775 /* UIKit.framework in Frameworks */,
 				385660DA18285ABE0078E775 /* Foundation.framework in Frameworks */,
 			);
@@ -107,7 +107,7 @@
 		385660D818285ABE0078E775 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3878596B18451D5A009139AF /* libSurvey SDK.a */,
+				38CFC051184ED08500F34569 /* libSurvey_SDK.a */,
 				385660D918285ABE0078E775 /* Foundation.framework */,
 				385660DB18285ABE0078E775 /* CoreGraphics.framework */,
 				385660DD18285ABE0078E775 /* UIKit.framework */,

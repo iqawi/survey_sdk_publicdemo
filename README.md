@@ -9,7 +9,7 @@ Please contact your account rep to get your ["org_id"](https://github.com/Survey
 ##Quick Start
 Add the static library and header file to your app.  See the wiki for more details on how to [link the libary](https://github.com/Survey-Com/survey_sdk_publicdemo/wiki/Adding-the-library-to-your-project).
 
-[libSurvey SDK.a](https://github.com/Survey-Com/survey_sdk_publicdemo/blob/master/libSurvey%20SDK.a?raw=true)
+[libSurvey_SDK.a](https://github.com/Survey-Com/survey_sdk_publicdemo/blob/master/libSurvey_SDK.a?raw=true)
 
 [Survey_SDK.h](https://raw.github.com/Survey-Com/survey_sdk_publicdemo/master/Survey%20SDK%20Demo/Survey_SDK.h)
 
